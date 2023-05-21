@@ -1,0 +1,13 @@
+{
+    "app": "yarn ts-node ./cdk/cdk.ts",
+    "context": {
+      "aws-cdk:enableDiffNoFail": "true",
+      "@aws-cdk/core:stackRelativeExports": "true"
+    },
+    "watch": {
+      "include": ["./cdk/**"]
+    },
+    "config": {},
+    "versionReporting": false
+  }
+  

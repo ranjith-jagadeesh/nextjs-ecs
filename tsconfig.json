@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es2018",
+      "module": "commonjs",
+      "lib": ["esnext", "dom", "DOM.Iterable"],
+      "esModuleInterop": true,
+      "declaration": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": false,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": false,
+      "sourceMap": true,
+      "jsx": "react-jsx",
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "declarationMap": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["./node_modules/@types"],
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "exclude": ["cdk.out", "dist", "node_modules"]
+  }
+  
